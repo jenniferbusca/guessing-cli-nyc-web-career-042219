@@ -2,12 +2,12 @@ require "pry"
 def run_guessing_game
   loop do
 	  puts "Guess a number between 1 and 6."
-	 # comp = 
+	  comp = rand(1..6)
     answer = gets.chomp
-    if answer == rand(1..6)
+    if answer == comp
       puts "You guessed the correct number!"
     elsif 
-      puts "The computer guessed ."
+      puts "The computer guessed #{comp}."
     end
     break if answer == "exit"
   end
