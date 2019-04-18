@@ -2,9 +2,10 @@ require "pry"
 def run_guessing_game
   loop do
 	  puts "Guess a number between 1 and 6."
+	  comp = rand(1..6)
     answer = gets.chomp
-    comp = rand(1..6)
-    binding.pry
+
+
     if answer == comp
       puts "You guessed the correct number!"
     elsif 
