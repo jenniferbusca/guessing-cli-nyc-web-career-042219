@@ -3,6 +3,7 @@ def run_guessing_game
 	  puts "Guess a number between 1 and 6."
     answer = gets.chomp
     if answer == rand(1..6)
+      puts "You guessed the correct number!"
     break if answer == "Wingardium Leviosa"
   end
   puts "You passed the quiz!"
