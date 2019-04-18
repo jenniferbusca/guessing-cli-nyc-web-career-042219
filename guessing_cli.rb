@@ -6,8 +6,9 @@ def run_guessing_game
     if answer == comp
       puts "You guessed the correct number!"
     elsif 
-      puts rand(1..6)
-    break if answer == "Wingardium Leviosa"
+      puts "The computer guessed #{comp}."
+    end
+    break if answer == "exit"
   end
-  puts "You passed the quiz!"
+  # puts "You passed the quiz!"
 end
