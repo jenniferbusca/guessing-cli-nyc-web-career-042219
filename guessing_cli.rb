@@ -1,6 +1,6 @@
 def run_guessing_game
   loop do
-	  puts "What is the spell that enacts levitation?"
+	  puts "Guess a number between 1 and 6."
     answer = gets.chomp
     break if answer == "Wingardium Leviosa"
   end
