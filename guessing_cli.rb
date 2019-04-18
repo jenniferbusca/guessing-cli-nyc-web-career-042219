@@ -1,9 +1,11 @@
 require "pry"
 def run_guessing_game
+  	  comp = rand(1..6)
+  	  	      binding.pry
   loop do
 	  puts "Guess a number between 1 and 6."
-	  comp = rand(1..6)
-	      binding.pry
+
+
   #   answer = gets.chomp
 
 
@@ -15,5 +17,4 @@ def run_guessing_game
   #   break if answer == "exit"
   # end
   # puts "Goodbye!"
-end
 end
