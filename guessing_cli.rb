@@ -6,5 +6,3 @@ def run_guessing_game
   end
   puts "You passed the quiz!"
 end
-
-end
